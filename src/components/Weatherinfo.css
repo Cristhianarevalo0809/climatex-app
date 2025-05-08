@@ -1,0 +1,48 @@
+.card-info {
+	text-align: center;
+}
+.card-title {
+	font-size: 1.75rem;
+}
+
+.card-icon {
+	width: 20px;
+	color: #0e01a1;
+}
+
+.card-span {
+	font-weight: normal;
+}
+
+.card-temp {
+	font-size: 45px;
+	color: #040404;
+	margin-bottom: 0;
+}
+.card-description {
+	margin: 0;
+	margin-bottom: 16px;
+}
+.card-details {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 16px;
+}
+.card-details-item {
+	display: flex;
+	gap: 8px;
+}
+.card-details-icon {
+	width: 16px;
+	color: #000792;
+}
+.card-details-item-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	color: #130404fb;
+}
+
+.card-details-item-value {
+	font-size: small;
+}

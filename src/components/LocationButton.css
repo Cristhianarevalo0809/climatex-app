@@ -1,0 +1,14 @@
+.location {
+	background-color: transparent;
+	border: 1px solid #070606;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-block: 10px;
+}
+
+.location-icon {
+	width: 20px;
+	color: #1f26a1;
+}

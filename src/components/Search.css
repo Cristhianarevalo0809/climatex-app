@@ -1,0 +1,23 @@
+.search-form {
+	width: 100%;
+	display: flex;
+	border: 1px solid #131212;
+	padding: 10px;
+	border-radius: 8px;
+}
+
+.search-form:hover {
+	background-color: rgba(240, 240, 240, 0.417);
+	border-color: #010673;
+}
+
+.search-icon {
+	width: 16px;
+}
+
+.search-input {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	color: #0d0b0b;
+}

@@ -1,0 +1,44 @@
+.container {
+	display: grid;
+	place-content: center;
+	min-height: 100dvh;
+}
+
+.card {
+	display: grid;
+	background-color: #b1b9c2ea;
+	-webkit-backdrop-filter: blur(5px);
+	/* -webkit-backdrop-filter: blur(15px); para funcionamiento de navegador */
+	backdrop-filter: blur(15px);
+	max-width: 500px;
+	padding: 1.5rem 1.5rem;
+	border: 1px solid #3b1a1a8f;
+	border-radius: 15px;
+	box-shadow: 0px 5px 15px #1fb4f998;
+	overflow: hidden;
+	font-size: 1rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.card-header {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.error-message {
+	background-color: #646cff0c;
+	color: #d32727b3;
+	padding: 5px;
+	border-radius: 8px;
+	text-align: center;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+}
+.error-icon {
+	width: 16px;
+	color: #646cff;
+}
