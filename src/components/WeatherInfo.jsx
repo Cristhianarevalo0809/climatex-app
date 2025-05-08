@@ -7,7 +7,7 @@ import {
 	Cloud,
 	Thermometer,
 } from 'lucide-react';
-import '../components/WeatherInfo.css';
+import './WeatherInfo.css';
 
 function WeatherInfo({ weather }) {
 	return (
