@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Search from './components/Search';
-import LocationButton from './components/locationButton';
+import LocationButton from './components/LocationButton';
 import WeatherInfo from './components/WeatherInfo';
 import BackgroundGif from './components/BackgroundGif';
 import './App.css';
